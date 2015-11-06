@@ -7,6 +7,9 @@ a {
 	border: 2px solid #27cecb; 
 	margin: 30px;
 	width: 100%; 
+}
+p {
+	font-size: 20px;
 } 
 li {
 	padding-right: 100px;
@@ -18,6 +21,9 @@ ul li {
 }
 nav { 
 	position: fixed; top: 85px; 
+	font-family: 'Indie Flower', cursive;
+	background-color: #27cecb;
+	width: 100%;
 }
  nav, article, section, aside, footer {
  padding: 10px;
@@ -50,6 +56,7 @@ footer {
     text-align: center;
 }
 article {
+	font-family: 'Indie Flower', cursive;
 	background-color: #23b6c4;
     position: relative;
     width: 66%;
@@ -57,12 +64,8 @@ article {
     left: 0px;
     top: 180px;
     margin-bottom: 50px;
+    left: 0px
 }
-.nav1 {
-	background-color: #27cecb;
-
-}
-
 .relative{
 	position: relative;
 	top: 30px;
@@ -70,20 +73,15 @@ article {
 	border-style: groove;
 }
 .header {
+	font-family: 'Indie Flower', cursive;
 	position: fixed;
     left: 0px;
     top: 0px;
-    height: 65px;
+    height: 85px;
     width: 100%;
     background-color: #1fa1ad;
     z-index: 1000;
     padding: 5px 10px 10px;
-}
-.love {
-	position: relative;
-	top:150px;
-	font-size:18px;
-	width: 60%
 }
 #fixed {
 	position: fixed;
