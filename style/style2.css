@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  background-color: #F1BFCD;
+  background-image: url('../img/asfalt-light.png');
+}
+
+nav, article, section, aside, footer {
+  padding: 10px;
+  /*border: 1px solid pink;*/
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Satisfy";
+  font-size: 32px;
+  padding: 0 0 10px 10px;
+  margin: 0;
+  position: static;
+}
+
+h3 {
+  font-family: "Satisfy";
+  font-size: 28px;
+  padding: 0 0 10px 0px;
+  margin: 0;
+  position: static;
+}
+
+header {
+  position:fixed;
+  left:0px;
+  top:0px;
+  height:40px;
+  width:100%;
+  background-color: white;
+  z-index: 1000;
+  padding: 5px 10px 10px;
+}
+
+header h1 {
+  font-family: "Satisfy";
+  font-size: 26px;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  left:0px;
+  top:50px;
+  height:30px;
+  background-color: #DA0A17;
+  z-index: 1000;
+}
+
+nav ul {
+  margin: 5px 10px;
+}
+
+ nav ul li {
+  display: inline;
+  padding: 10px;
+  color: white;
+}
+
+article {
+  position: relative;
+  width: 66%;
+  float: left;
+  left:0px;
+  top:110px;
+  margin-bottom: 50px;
+}
+
+section {
+  background-color: #F1BFCD;
+  margin-bottom: 10px;
+}
+
+aside {
+  width: 25%;
+  float: left;
+  position: relative;
+  float: left;
+  left:0px;
+  top:110px;
+  margin-bottom: 50px;
+  background-color: #F1BFCD;
+}
+
+footer {
+  width: 98%;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  background-color: #E9378F;
+  z-index: 1000;
+}
+footer h6 {
+  font-family: "Satisfy";
+  font-size: 14px;
+  position: absolute;
+  width: 100%;
+  margin: 10px auto 0 auto;
+  text-align: center;
+}
