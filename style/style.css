@@ -11,10 +11,7 @@ a {
 p {
 	font-size: 20px;
 } 
-li {
-	padding-right: 100px;
-	margin:0 auto;
-}
+
 ul li {
 	display: inline;
 	top: 50px;
@@ -24,6 +21,7 @@ nav {
 	font-family: 'Indie Flower', cursive;
 	background-color: #27cecb;
 	width: 100%;
+	font-size: 20px;
 }
  nav, article, section, aside, footer {
  padding: 10px;
