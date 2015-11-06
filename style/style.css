@@ -1,0 +1,36 @@
+body {
+	background-image: url("http://i.imgur.com/YGiQgKe.png");
+	height: 100000px;
+}
+
+.nav1 {
+	display: inline;
+	position: fixed;
+}
+
+.relative{
+	position: relative;
+	top: 30px;
+	text-decoration: underline;
+}
+
+h1{
+	display:inline;
+	position: absolute;
+	left: 10px;
+	top: 25px;
+}
+
+#fixed {
+	position: fixed;
+	left: 400px;
+
+}
+
+.love {
+	border-style: solid;
+	border-color: pink;
+	border-width: 2px;
+	position: relative;
+	top:100px;
+}
